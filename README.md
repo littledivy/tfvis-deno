@@ -3,6 +3,11 @@
 Visualize Tensorflow.js in Deno.
 
 ```typescript
+import * as tf from "npm:@tensorflow/tfjs";
+import "npm:@tensorflow/tfjs-backend-webgpu";
+
+import * as tfvis from "https://deno.land/x/tfvis/mod.ts";
+
 // See examples/mnist/mnist.ts
 // ...
 
