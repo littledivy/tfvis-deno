@@ -135,4 +135,6 @@ async function showExamples(data) {
   }
 }
 
-await main();
+const data = new MnistData();
+await data.load();
+await showExamples(data);
